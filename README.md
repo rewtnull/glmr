@@ -1,5 +1,7 @@
 # glmr
 
+**-- ABOUT --**
+
 glmr (OpenGL Mathematics Replacement) is a (fairly) modular subset replacement to some cglm functions
 
 
@@ -9,16 +11,14 @@ The aim is to allow for certain (graphical) mathematic calculations without the 
 I am trying to avoid internal dependencies when possible, so in any future updates, helper code may be duplicated inside functions that depend on them.
 
 
-**Helpers**
-**-------**
+**-- HELPERS --**
 
 
     glmr_sqrt()  
     glmr_tanf()
 
 
-**Drop-in Replacements**
-**--------------------**
+**-- DROP-IN REPLACEMENTS --**
 
 
     glmr_lookat()
@@ -52,8 +52,7 @@ To avoid potential conflicts with other includes, the following type definitions
     #define GLMR_PI 3.14159265358979323846
 
 
-**Are these feature complete?**
-**---------------------------**
+**-- ARE THESE FEATURE COMPLETE? --**
 
 
 glmr is far from complete, and include only the functions I currently use with my projects. It is not meant to be a replacement to the cglm library. The included functions may or may not be optimized or full featured.
@@ -61,15 +60,13 @@ glmr is far from complete, and include only the functions I currently use with m
 As the scope is focused on size optimization over efficiency, I strongly recommend you to do your own benchmark tests to compare cglm with glmr
 
 
-**cglm**
-**----**
+**-- CGLM --**
 
 
 Check out cglm here: https://github.com/recp/cglm
 
 
-**License**
-**-------**
+**-- LICENCE --**
 
 
 This project is released under the MIT license. If you are a demo scener and choose to use any of this code in your productions, additional conditions apply as follows: Greetings to dMG and diViNE sTYLERs, UP ROUGH, and TiTAN in your production! :D

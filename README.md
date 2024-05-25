@@ -2,7 +2,7 @@
 
 **-- ABOUT --**
 
-glmr (OpenGL Mathematics Replacement) is a (fairly) modular subset replacement to some cglm functions
+glmr  - or "glimmer" (OpenGL Mathematics Replacement) - is a (fairly) modular subset replacement to some cglm functions
 
 
 The aim is to allow for certain (graphical) mathematic calculations without the need to include the complete library; you can lift out and use only the functions you require for your project.
